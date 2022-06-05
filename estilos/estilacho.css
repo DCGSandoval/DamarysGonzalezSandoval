@@ -78,31 +78,27 @@ h1 {
 
 .main {
   overflow: auto;
-  display: inline-flexbox;
+  display: flex;
   min-height: 300px;
   font-size: 3ex;
   margin: 1em;
+  
   }
 
-.main>aside {
-  margin: 1em 1em 1em 1.1em;
-  min-height: 300px;
-  height: auto;
-  float: left;
-  width: 30%;
-  }
 
 .main-imagen {
-  width: 16em;
-  height: 24em;
+  width: 12em;
+  height: 18em;
+  float:left;
+  padding-right: 1em;
   }
+      
 
 .main>div {
-  margin: 1em;
-  min-height: 18em;
+  margin: 1em 1.6em 1em 1em;
   height: auto;
   float: left;
-  width: 60%;
+  width: 100%;
   }
    
 .pinturas {
@@ -155,17 +151,26 @@ div.desc {
 
 .main-videos {
   margin: 1em 1em 1em 3.5em;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  display:grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 3em;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 2em;
+  
   }
 
-div.videos {
-  padding: 2em;
-  width: 320px;
-  height: 240px;
-  } 
+.videos {
+  margin: 1em;
+  display: flexbox;
+  flex-direction: column;
+  grid-gap: 3px;
+  padding: 0.5em;
+
+}
+
+.titulo-video {
+  text-align:left;
+  color: #800080;
+}
 
 
 .footer {
@@ -272,10 +277,6 @@ div.videos {
   border-radius: 15%;
 }
 
-.fijar {
-  margin-top: -135px;
-
-}
 
 .volverhome-form {
   text-align: left;
@@ -283,9 +284,6 @@ div.videos {
   font-size: 1.3rem;
   padding-bottom: 1em;
   font-weight: bold;
-  
-
-
 
 }
 
