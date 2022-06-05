@@ -24,6 +24,9 @@ h1 {
   text-align: left;
   margin: 0 1.5em 0 1.5em;
 } 
+main {
+  margin: 0%;
+}
 
 .main-imagen {
   width: 8em;
@@ -43,32 +46,40 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 0.5em;
+  margin: 0%;
+  width: 96%;
+}
+
+div.gallery{
+  margin: 0%;
+  width: 90%;
+
 }
 
       
 .pinturas {
-  margin: 1em 0.1em 0.1em 1.7em;
+  margin: auto;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 2px;
+  grid-gap: 0.5px;
 }
   
 .poemas {
-  margin: 0 0.1em 0.1em 0.1em;
+  margin: auto;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 2px;    
+  grid-gap: 0.5px;  
+  padding: 0%;  
 }
 
 .main-videos {
-  margin: 1em 1em 1em 1em;
+  margin: 0;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr;
   grid-gap: 0;
-  width: 26em;
   height: 140em;
 }
 
@@ -77,6 +88,7 @@ h1 {
   display: flexbox;
   grid-gap: 0;
   padding: 0.3em;
+  width: 80%;
 }
 
 
